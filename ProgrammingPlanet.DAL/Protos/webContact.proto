@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package WebContact.V1;
+
+option csharp_namespace = "ProgrammingPlanet.ContactService.gRPC.Protos";
+
+service WebContactService
+{
+	rpc AddContact(CreateContactRequest) returns (CreateContactReply) {}
+}
+
+message CreateContactRequest
+{
+	string Name = 1;
+	string Email = 2;
+	string Subject = 3;
+	string Message = 4;
+}
+
+message CreateContactReply
+{
+	int32 Id = 1;
+}

@@ -1,0 +1,1 @@
+﻿global using ProgrammingPlanet.ContactService.Domain.Models;

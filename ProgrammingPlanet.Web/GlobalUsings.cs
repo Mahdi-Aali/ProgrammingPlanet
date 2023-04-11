@@ -1,0 +1,14 @@
+﻿global using Grpc.Net.Compression;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.RazorPages;
+global using ProgrammingPlanet.DAL.Repositories.ContactUsRepositories;
+global using ProgrammingPlanet.Domain.Models.ContactUs;
+global using ProgrammingPlanet.Domain.Repositories.ContactUsRepositories;
+global using ProgrammingPlanet.Domain.Services.ContactUsServices;
+global using ProgrammingPlanet.Web.Compression;
+global using System.IO.Compression;
+global using ProgrammingPlanet.BLL.Services.ContactUsServices;
+global using Grpc.Core;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Microsoft.AspNetCore.Mvc.ModelBinding;
+global using Microsoft.AspNetCore.Mvc.ViewFeatures;
